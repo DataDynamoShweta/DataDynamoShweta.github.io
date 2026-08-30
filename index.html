@@ -1,0 +1,1495 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shweta Puri — Advanced Analytics Leader | AI, ML & Consumer Intelligence</title>
+<meta name="description" content="Shweta Puri is an Advanced Analytics Leader specializing in AI, Machine Learning, predictive modeling, and consumer intelligence across Banking, Healthcare, and FMCG.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --paper: #f4f6f2; /* Soft light green background for a natural flow */
+  --ink: #0f172a;
+  --blue: #2563eb;
+  --sage: #8f9779;
+  --sage-bg: #8f9779;
+  --sage-dark: #1c2619;
+  --lime: #bef264;
+  --muted: #576558;
+  --line: #dbe2d8;
+  --max: 1240px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+.wrap {
+  width: min(var(--max), calc(100% - 96px));
+  margin: auto;
+}
+
+.mono, .eyebrow, nav, .kicker, .metric-label, .date, .tag, .small, .badge {
+  font-family: 'Courier Prime', "Courier New", monospace;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+}
+
+.mono {
+  font-size: 11px;
+}
+
+/* Site Header */
+.site-header {
+  height: 80px;
+  border-bottom: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  background: var(--paper);
+  z-index: 100;
+  width: 100%;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(var(--max), calc(100% - 96px));
+  height: 100%;
+  margin: auto;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.mark {
+  width: 32px;
+  height: 32px;
+  background: var(--blue);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-family: 'Courier Prime', monospace;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.site-nav {
+  display: flex;
+  gap: 28px;
+  font-size: 11px;
+  color: var(--muted);
+  align-items: center;
+}
+
+.site-nav a {
+  padding: 28px 0;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.site-nav a.active, .site-nav a:hover {
+  border-color: var(--sage);
+  color: var(--ink);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-icon-link svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--ink);
+  transition: fill 0.2s ease;
+  display: block;
+}
+
+.social-icon-link:hover svg {
+  fill: var(--blue);
+}
+
+.btn-primary {
+  background: var(--blue);
+  color: #fff !important;
+  padding: 8px 16px;
+  font-weight: 700;
+  border-radius: 2px;
+  transition: background 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+
+/* Hero Section */
+.hero {
+  min-height: calc(100vh - 80px);
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 60px;
+  align-items: center;
+  padding: 60px 0 80px;
+}
+
+.kicker {
+  font-size: 11px;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.kicker:before {
+  content: "";
+  width: 32px;
+  height: 1px;
+  background: var(--sage);
+}
+
+h1.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(4.2rem, 7.5vw, 7rem);
+  line-height: 0.88;
+  letter-spacing: -0.03em;
+  margin: 28px 0 20px;
+  font-weight: 400;
+}
+
+h1.hero-title .blue-text {
+  color: var(--blue);
+}
+
+.hero-role {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.3rem, 2.2vw, 1.9rem);
+  line-height: 1.25;
+  color: var(--muted);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* 3 Core Hero Proof Points */
+.proof-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.proof-pill {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  padding: 8px 14px;
+  font-size: 10px;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.hero-meta {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: var(--muted);
+  flex-wrap: wrap;
+}
+
+.hero-meta .rule {
+  height: 16px;
+  width: 1px;
+  background: var(--line);
+}
+
+.arrow {
+  color: var(--sage);
+  font-size: 14px;
+  margin-left: 6px;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.hero-meta a:hover .arrow {
+  transform: translate(3px, 3px);
+}
+
+/* Radar Signal Graphic */
+.radar-container {
+  aspect-ratio: 1/1;
+  max-width: 460px;
+  width: 100%;
+  justify-self: end;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#radarCanvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.radar-label {
+  position: absolute;
+  font-size: 9px;
+  pointer-events: none;
+  z-index: 2;
+  white-space: nowrap;
+}
+
+.radar-label.signal { top: 28%; left: 32%; color: var(--blue); }
+.radar-label.action { bottom: 28%; right: 20%; color: var(--sage); }
+
+.brain-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--blue);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--paper);
+  z-index: 10;
+  animation: rotateBrain 22s linear infinite;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.08);
+}
+
+.brain-badge svg {
+  width: 26px;
+  height: 26px;
+  fill: var(--ink);
+}
+
+@keyframes rotateBrain {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.radar-foot {
+  position: relative;
+  z-index: 2;
+  margin-top: auto;
+}
+
+.radar-subtext {
+  font-size: 9px;
+  color: var(--muted);
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.lime-badge {
+  background: var(--lime);
+  color: #1a2e05;
+  padding: 8px 12px;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .12em;
+}
+
+/* Global Section Layout */
+.section {
+  padding: 90px 0;
+  border-top: 1px solid var(--line);
+}
+
+.section-head {
+  display: grid;
+  grid-template-columns: .45fr 1.55fr;
+  gap: 60px;
+  margin-bottom: 50px;
+}
+
+.eyebrow {
+  font-size: 10px;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.section h2 span { color: var(--blue); }
+
+.lede {
+  font-size: clamp(1.2rem, 1.8vw, 1.7rem);
+  color: var(--muted);
+  max-width: 780px;
+  line-height: 1.3;
+}
+
+.copy {
+  color: var(--muted);
+  max-width: 720px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Leadership Grid */
+.leadership-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.leadership-card {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  padding: 32px;
+}
+
+.leadership-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0 0 12px;
+}
+
+.leadership-card p {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Metrics Grid */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.metric-card {
+  background: var(--paper);
+  padding: 30px;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.metric-card:hover {
+  background: #ffffff;
+  transform: translateY(-4px);
+  z-index: 2;
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.06);
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.metric-value {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.5rem, 4vw, 4.2rem);
+  line-height: .9;
+  color: var(--blue);
+  margin: 16px 0;
+}
+
+.metric-label {
+  font-size: 11px;
+  color: var(--ink);
+  line-height: 1.4;
+}
+
+/* Selected Work / Portfolio Section */
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.work-card {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.work-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0 0 20px;
+  color: var(--ink);
+}
+
+.work-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+  margin-top: 20px;
+}
+
+.work-step-title {
+  font-size: 9px;
+  color: var(--blue);
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+.work-step-desc {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+/* Timeline / Experience */
+.timeline {
+  border-top: 1px solid var(--line);
+}
+
+.job {
+  display: grid;
+  grid-template-columns: 180px 1fr 180px;
+  gap: 30px;
+  padding: 36px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.date {
+  font-size: 10px;
+  color: var(--muted);
+}
+
+.job h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.3rem, 1.8vw, 1.7rem);
+  font-weight: 400;
+  margin: 0;
+}
+
+.company {
+  margin-top: 4px;
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.job ul {
+  margin: 16px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.job li {
+  margin-bottom: 8px;
+}
+
+.job-impact-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.impact-pill {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 4px 10px;
+  font-size: 9px;
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* Toolkit Grid */
+.toolkit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.toolkit-card {
+  border: 1px solid var(--line);
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.toolkit-card h4 {
+  font-family: 'Courier Prime', monospace;
+  font-size: 11px;
+  color: var(--blue);
+  margin: 0 0 16px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 6px 10px;
+  font-size: 10px;
+  color: var(--ink);
+  border-radius: 2px;
+}
+
+/* Compact Education Section */
+.edu-compact-section {
+  background-color: var(--sage-bg);
+  color: var(--sage-dark);
+  padding: 55px 0 65px;
+}
+
+.edu-container {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  align-items: center;
+  gap: 40px;
+}
+
+.edu-eyebrow {
+  font-size: 9px;
+  color: var(--sage-dark);
+  opacity: 0.85;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.edu-grid-horizontal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  position: relative;
+  padding-top: 16px;
+  border-top: 1px solid rgba(28, 38, 25, 0.25);
+}
+
+.edu-date-label {
+  font-size: 9px;
+  opacity: 0.8;
+  margin-bottom: 6px;
+  color: var(--sage-dark);
+}
+
+.edu-degree {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0 0 4px;
+  color: var(--sage-dark);
+}
+
+.edu-school {
+  font-size: 11px;
+  opacity: 0.85;
+  color: var(--sage-dark);
+}
+
+.edu-check-box {
+  width: 70px;
+  height: 70px;
+  border: 1px solid rgba(28, 38, 25, 0.35);
+  display: grid;
+  place-items: center;
+  justify-self: end;
+}
+
+.edu-check-box svg {
+  width: 20px;
+  height: 20px;
+  stroke: var(--sage-dark);
+  stroke-width: 1.8;
+  fill: none;
+}
+
+/* Footer Section */
+.footer {
+  padding: 90px 0 40px;
+  border-top: 1px solid var(--line);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: .45fr 1.55fr;
+  gap: 60px;
+}
+
+.footer h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.8rem, 6vw, 6rem);
+  line-height: .95;
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+
+.footer h2 span { color: var(--blue); }
+
+.contact-opportunity-box {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  padding: 24px;
+  margin-top: 24px;
+  max-width: 600px;
+}
+
+.contact-opportunity-title {
+  font-size: 11px;
+  color: var(--blue);
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+.contact-opportunity-desc {
+  font-size: 14px;
+  color: var(--muted);
+  margin: 0 0 16px;
+}
+
+.footer-action-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.action-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 4px;
+  font-weight: 700;
+}
+
+.action-link.primary {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.action-link:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.action-link svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+  display: block;
+}
+
+.footline {
+  border-top: 1px solid var(--line);
+  margin-top: 80px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 9px;
+}
+
+/* Progressive Scroll Animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media(max-width: 850px) {
+  .header-inner, .wrap {
+    width: min(100% - 40px, var(--max));
+  }
+  .site-nav {
+    display: none;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding-top: 30px;
+  }
+  .radar-container {
+    justify-self: center;
+  }
+  .section-head, .footer-grid, .edu-container, .work-grid, .leadership-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .work-steps {
+    grid-template-columns: 1fr 1fr;
+  }
+  .edu-check-box {
+    justify-self: start;
+    width: 60px;
+    height: 60px;
+  }
+  .metrics-grid, .edu-grid-horizontal {
+    grid-template-columns: 1fr;
+  }
+  .job {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .footline {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a class="brand" href="#top">
+      <span class="mark">SP</span>
+      <span>Shweta Puri</span>
+    </a>
+    
+    <nav class="site-nav mono" aria-label="Main navigation">
+      <a href="#profile">PROFILE</a>
+      <a href="#leadership">LEADERSHIP</a>
+      <a href="#impact">IMPACT</a>
+      <a href="#work">SELECTED WORK</a>
+      <a href="#experience">EXPERIENCE</a>
+      <a href="#toolkit">TOOLKIT</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="https://www.linkedin.com/in/shweta-puri-26b67413" target="_blank" rel="noopener" class="social-icon-link" aria-label="LinkedIn Profile">
+        <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.7a1.63 1.63 0 1 0 0 3.26 1.63 1.63 0 0 0 0-3.26z"/></svg>
+      </a>
+      <a href="https://github.com/DataDynamoShweta" target="_blank" rel="noopener" class="social-icon-link" aria-label="GitHub Profile">
+        <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+      </a>
+      <a class="btn-primary mono" href="#contact">CONNECT ↗</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero Section -->
+  <section id="profile" class="wrap hero">
+    <div class="reveal">
+      <div class="kicker mono">ANALYTICS LEADERSHIP / LEEDS, UK</div>
+      <h1 class="hero-title">Shweta<br><span class="blue-text">Puri.</span></h1>
+      <p class="hero-role">Advanced Analytics Leader<br><span style="font-size:0.85em; color:var(--ink);">Turning customer data into measurable business outcomes.</span></p>
+
+      <!-- Proof Points -->
+      <div class="proof-points mono">
+        <span class="proof-pill">10+ YEARS ANALYTICS EXPERIENCE</span>
+        <span class="proof-pill">AI / ML / PREDICTIVE ANALYTICS</span>
+        <span class="proof-pill">BANKING · HEALTHCARE · FMCG</span>
+      </div>
+
+      <div class="hero-meta mono">
+        <a href="#impact">EXPLORE IMPACT <span class="arrow">↘</span></a>
+        <span class="rule"></span>
+        <a href="https://www.linkedin.com/in/shweta-puri-26b67413" target="_blank" rel="noopener">CONNECT ON LINKEDIN ↗</a>
+      </div>
+    </div>
+    
+    <div class="radar-container reveal" aria-label="Decision Signal Diagram">
+      <div class="brain-badge" title="AI & Neural Decision Intelligence">
+        <svg viewBox="0 0 500 500">
+          <path d="M 190 60 C 120 60, 60 110, 60 180 C 40 200, 30 230, 30 260 C 30 310, 60 350, 100 370 C 110 420, 150 450, 200 450 C 230 450, 245 435, 250 410 C 245 350, 245 150, 250 90 C 230 70, 210 60, 190 60 Z" fill="none" stroke="#0f172a" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M 180 140 C 140 150, 130 180, 150 200" fill="none" stroke="#0f172a" stroke-width="20" stroke-linecap="round"/>
+          <path d="M 120 250 C 110 280, 130 310, 160 300" fill="none" stroke="#0f172a" stroke-width="20" stroke-linecap="round"/>
+          <path d="M 160 360 C 180 370, 200 360, 210 340" fill="none" stroke="#0f172a" stroke-width="20" stroke-linecap="round"/>
+          
+          <path d="M 250 110 L 330 110 L 370 70 L 400 70" fill="none" stroke="#0f172a" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="425" cy="70" r="22" fill="none" stroke="#0f172a" stroke-width="18"/>
+          
+          <path d="M 250 180 L 390 180 L 430 180" fill="none" stroke="#0f172a" stroke-width="20" stroke-linecap="round"/>
+          <circle cx="455" cy="180" r="22" fill="none" stroke="#0f172a" stroke-width="18"/>
+
+          <path d="M 250 260 L 340 260 L 380 300 L 410 300" fill="none" stroke="#0f172a" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="435" cy="300" r="22" fill="none" stroke="#0f172a" stroke-width="18"/>
+
+          <path d="M 250 340 L 300 340 L 330 380 L 350 380" fill="none" stroke="#0f172a" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="375" cy="380" r="22" fill="none" stroke="#0f172a" stroke-width="18"/>
+
+          <path d="M 330 110 L 330 140 L 350 140" fill="none" stroke="#0f172a" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="375" cy="140" r="22" fill="none" stroke="#0f172a" stroke-width="18"/>
+        </svg>
+      </div>
+
+      <canvas id="radarCanvas"></canvas>
+      
+      <div class="radar-label signal mono">● SIGNAL / CUSTOMER</div>
+      <div class="radar-label action mono">● ACTION / OUTCOME</div>
+
+      <div class="radar-foot">
+        <div class="radar-subtext mono">
+          DECISION LAYER<br>
+          LEEDS / UK
+        </div>
+        <div class="lime-badge mono">MAKE THE DECISION CLEARER.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leadership Section -->
+  <section id="leadership" class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">01 / LEADERSHIP</div>
+        <div>
+          <h2>Strategic <span>core capabilities.</span></h2>
+          <p class="copy" style="margin-top:16px;">Bridging advanced data science, enterprise strategy, and cross-functional leadership.</p>
+        </div>
+      </div>
+
+      <div class="leadership-grid reveal">
+        <div class="leadership-card">
+          <h3>Analytics Strategy</h3>
+          <p>Translating complex business problems into scalable analytical solutions, defining long-term data roadmaps, and delivering clear strategic vision.</p>
+        </div>
+
+        <div class="leadership-card">
+          <h3>Team Leadership</h3>
+          <p>Leading high-performing cross-functional analytics initiatives from initial problem definition through end-to-end model deployment.</p>
+        </div>
+
+        <div class="leadership-card">
+          <h3>Stakeholder Engagement</h3>
+          <p>Communicating complex machine learning insights and quantitative models clearly to C-suite executives and non-technical leaders.</p>
+        </div>
+
+        <div class="leadership-card">
+          <h3>Business Impact</h3>
+          <p>Connecting predictive modeling and granular customer insights directly to bottom-line commercial outcomes and operational efficiency gains.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Section -->
+  <section id="impact" class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">02 / IMPACT</div>
+        <div>
+          <h2>Delivering <span>measurable reach.</span></h2>
+          <p class="copy" style="margin-top:16px;">Proven commercial outcomes across retail banking, commercial strategy, and healthcare.</p>
+        </div>
+      </div>
+
+      <div class="metrics-grid">
+        <div class="metric-card reveal">
+          <div class="card-head mono">
+            <span>COLLECTIONS OPTIMIZATION</span>
+            <span>↗</span>
+          </div>
+          <div class="metric-value" data-val="4" data-prefix="+" data-suffix="%">+4%</div>
+          <div class="metric-label mono">Debt Collection Rate boosted via predictive contact strategies</div>
+        </div>
+
+        <div class="metric-card reveal">
+          <div class="card-head mono">
+            <span>SCALE & REACH</span>
+            <span>↗</span>
+          </div>
+          <div class="metric-value" data-val="1400" data-suffix="+">1,400+</div>
+          <div class="metric-label mono">Sales Reps Enabled via automated Python &amp; SQL KPI Dashboards</div>
+        </div>
+
+        <div class="metric-card reveal">
+          <div class="card-head mono">
+            <span>CREDIT RISK GOVERNANCE</span>
+            <span>↗</span>
+          </div>
+          <div class="metric-value" style="font-size: clamp(1.8rem, 3vw, 2.8rem); margin: 24px 0;">MULTIPLE MODELS</div>
+          <div class="metric-label mono">Credit Risk &amp; Propensity Scorecards deployed using bureau &amp; client data</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected Work Section -->
+  <section id="work" class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">03 / SELECTED WORK</div>
+        <div>
+          <h2>Selected <span>case studies.</span></h2>
+          <p class="copy" style="margin-top:16px;">Representative analytics initiatives from problem framing to commercial deployment.</p>
+        </div>
+      </div>
+
+      <div class="work-grid reveal">
+        
+        <!-- Project 1 -->
+        <div class="work-card">
+          <div>
+            <div class="mono" style="font-size:10px; color:var(--blue); margin-bottom:8px;">RETAIL BANKING / CREDIT RISK</div>
+            <h3>Predictive Collections Optimization</h3>
+          </div>
+          <div class="work-steps mono">
+            <div>
+              <div class="work-step-title">PROBLEM</div>
+              <div class="work-step-desc">Low recovery rates &amp; inefficient contact timing.</div>
+            </div>
+            <div>
+              <div class="work-step-title">MODEL</div>
+              <div class="work-step-desc">Propensity to pay scorecards &amp; risk models.</div>
+            </div>
+            <div>
+              <div class="work-step-title">DEPLOYMENT</div>
+              <div class="work-step-desc">Automated contact prioritization engine.</div>
+            </div>
+            <div>
+              <div class="work-step-title">IMPACT</div>
+              <div class="work-step-desc">+4% boost in debt collection rates.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="work-card">
+          <div>
+            <div class="mono" style="font-size:10px; color:var(--blue); margin-bottom:8px;">FINANCIAL SERVICES / MARKETING</div>
+            <h3>Customer Propensity &amp; Acquisition</h3>
+          </div>
+          <div class="work-steps mono">
+            <div>
+              <div class="work-step-title">PROBLEM</div>
+              <div class="work-step-desc">High acquisition costs for investment products.</div>
+            </div>
+            <div>
+              <div class="work-step-title">MODEL</div>
+              <div class="work-step-desc">XGBoost &amp; Random Forest propensity models.</div>
+            </div>
+            <div>
+              <div class="work-step-title">DEPLOYMENT</div>
+              <div class="work-step-desc">Targeted digital funnel &amp; campaign triggers.</div>
+            </div>
+            <div>
+              <div class="work-step-title">IMPACT</div>
+              <div class="work-step-desc">Optimized campaign ROI &amp; customer funnel.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="work-card">
+          <div>
+            <div class="mono" style="font-size:10px; color:var(--blue); margin-bottom:8px;">COMMERCIAL / HEALTHCARE</div>
+            <h3>Behavioral Customer Segmentation</h3>
+          </div>
+          <div class="work-steps mono">
+            <div>
+              <div class="work-step-title">PROBLEM</div>
+              <div class="work-step-desc">One-size-fits-all sales rep targeting.</div>
+            </div>
+            <div>
+              <div class="work-step-title">MODEL</div>
+              <div class="work-step-desc">K-Means clustering &amp; Decision Trees.</div>
+            </div>
+            <div>
+              <div class="work-step-title">DEPLOYMENT</div>
+              <div class="work-step-desc">Automated field rep dashboard &amp; strategy.</div>
+            </div>
+            <div>
+              <div class="work-step-title">IMPACT</div>
+              <div class="work-step-desc">Streamlined strategy for 1,400+ reps.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="work-card">
+          <div>
+            <div class="mono" style="font-size:10px; color:var(--blue); margin-bottom:8px;">MLOPS / GOVERNANCE</div>
+            <h3>Model Monitoring &amp; Drift Detection</h3>
+          </div>
+          <div class="work-steps mono">
+            <div>
+              <div class="work-step-title">PROBLEM</div>
+              <div class="work-step-desc">Model performance degradation over time.</div>
+            </div>
+            <div>
+              <div class="work-step-title">MODEL</div>
+              <div class="work-step-desc">Statistical data &amp; concept drift pipelines.</div>
+            </div>
+            <div>
+              <div class="work-step-title">DEPLOYMENT</div>
+              <div class="work-step-desc">Automated warning &amp; monitoring alerts.</div>
+            </div>
+            <div>
+              <div class="work-step-title">IMPACT</div>
+              <div class="work-step-desc">Proactive recalibration &amp; risk governance.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">04 / EXPERIENCE</div>
+        <div>
+          <p class="lede">Track record in machine learning deployment, risk mitigation, and consumer behavior analysis.</p>
+        </div>
+      </div>
+
+      <div class="timeline">
+
+        <!-- Job 1 -->
+        <article class="job reveal">
+          <div class="date mono">12/2022 — 07/2025</div>
+          <div>
+            <h3>Advanced Analytics Lead – Consumer Insights</h3>
+            <div class="company">Lloyds Bank · Leeds, UK</div>
+            <ul>
+              <li>Led end-to-end ML and advanced analytics solutions across debt collections, marketing, and product strategy.</li>
+              <li>Built predictive models for customer risk assessment and insurance purchase propensity to optimize campaign ROI.</li>
+              <li>Developed granular customer segmentation frameworks to refine contact strategies across core banking products.</li>
+              <li>Established robust model monitoring and data drift detection frameworks to maintain production reliability.</li>
+            </ul>
+            <div class="job-impact-pills mono">
+              <span class="impact-pill">COLLECTIONS ↑</span>
+              <span class="impact-pill">CAMPAIGN ROI ↑</span>
+              <span class="impact-pill">MODEL GOVERNANCE</span>
+              <span class="impact-pill">CUSTOMER SEGMENTATION</span>
+            </div>
+          </div>
+          <div class="mono" style="font-size:10px; color:var(--muted);">RETAIL BANKING</div>
+        </article>
+
+        <!-- Job 2 -->
+        <article class="job reveal">
+          <div class="date mono">10/2019 — 09/2022</div>
+          <div>
+            <h3>Senior Portfolio Analyst</h3>
+            <div class="company">Lowell Financial Ltd · Leeds, UK</div>
+            <ul>
+              <li>Optimized debt recovery strategies using predictive models, scorecards, and customer journey analytics.</li>
+              <li>Developed propensity to default and payment adherence models utilizing bureau and internal client data.</li>
+              <li>Designed business performance baselines to support executive asset forecasting and budget planning.</li>
+              <li>Implemented early warning monitoring frameworks to identify emerging credit portfolio risks proactively.</li>
+            </ul>
+            <div class="job-impact-pills mono">
+              <span class="impact-pill">PORTFOLIO OPTIMIZATION</span>
+              <span class="impact-pill">CREDIT SCORECARDS</span>
+              <span class="impact-pill">EXECUTIVE REPORTING</span>
+            </div>
+          </div>
+          <div class="mono" style="font-size:10px; color:var(--muted);">CREDIT RISK &amp; RECOVERY</div>
+        </article>
+
+        <!-- Job 3 -->
+        <article class="job reveal">
+          <div class="date mono">03/2015 — 07/2018</div>
+          <div>
+            <h3>Senior Analyst</h3>
+            <div class="company">Novartis Healthcare · India</div>
+            <ul>
+              <li>Delivered data science solutions for sales strategy, physician targeting, and commercial performance optimization.</li>
+              <li>Built physician segmentation models using K-Means and Decision Trees based on prescribing behavior.</li>
+              <li>Automated KPI dashboards in Python and SQL for 1,400+ field reps to support real-time commercial decisions.</li>
+              <li>Executed A/B testing and regression modeling to evaluate multi-channel promotional campaign effectiveness.</li>
+            </ul>
+            <div class="job-impact-pills mono">
+              <span class="impact-pill">1,400+ REPS ENABLED</span>
+              <span class="impact-pill">PHYSICIAN TARGETING</span>
+              <span class="impact-pill">A/B EXPERIMENTATION</span>
+            </div>
+          </div>
+          <div class="mono" style="font-size:10px; color:var(--muted);">HEALTHCARE ANALYTICS</div>
+        </article>
+
+        <!-- Job 4 -->
+        <article class="job reveal">
+          <div class="date mono">06/2011 — 11/2012</div>
+          <div>
+            <h3>Business Analyst</h3>
+            <div class="company">Tata Consultancy Services · Vadodara, India</div>
+            <ul>
+              <li>Optimized FMCG distribution using data analytics, clustering, and product recommendation engines.</li>
+              <li>Developed store segmentation models using Pareto analysis to prioritize high-value retail clusters.</li>
+              <li>Executed what-if scenario modeling to optimize product assortment mixes across store tiers.</li>
+            </ul>
+            <div class="job-impact-pills mono">
+              <span class="impact-pill">RETAIL PROFILING</span>
+              <span class="impact-pill">ASSORTMENT OPTIMIZATION</span>
+            </div>
+          </div>
+          <div class="mono" style="font-size:10px; color:var(--muted);">FMCG DISTRIBUTION</div>
+        </article>
+
+        <!-- Job 5 -->
+        <article class="job reveal">
+          <div class="date mono">05/2009 — 05/2011</div>
+          <div>
+            <h3>Consultant</h3>
+            <div class="company">CERA · Delhi, India</div>
+            <ul>
+              <li>Leveraged SAS and advanced Excel reporting to build automated KPI dashboards tracking sales performance.</li>
+              <li>Built outlet segmentation models using clustering techniques to classify dealers by purchase frequency.</li>
+            </ul>
+            <div class="job-impact-pills mono">
+              <span class="impact-pill">DEALER CLUSTERING</span>
+              <span class="impact-pill">SALES DASHBOARDS</span>
+            </div>
+          </div>
+          <div class="mono" style="font-size:10px; color:var(--muted);">COMMERCIAL STRATEGY</div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Toolkit Section -->
+  <section id="toolkit" class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">05 / TOOLKIT</div>
+        <div>
+          <h2>Capability <span>toolkit.</span></h2>
+        </div>
+      </div>
+
+      <div class="toolkit-grid reveal">
+        <div class="toolkit-card">
+          <h4>AI &amp; Machine Learning</h4>
+          <div class="tag-cloud">
+            <span class="tag">Predictive Modeling</span>
+            <span class="tag">XGBoost</span>
+            <span class="tag">Random Forest</span>
+            <span class="tag">Propensity Modeling</span>
+            <span class="tag">Segmentation</span>
+            <span class="tag">Logistic Regression</span>
+          </div>
+        </div>
+
+        <div class="toolkit-card">
+          <h4>Data &amp; Programming</h4>
+          <div class="tag-cloud">
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">R</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Scikit-Learn</span>
+          </div>
+        </div>
+
+        <div class="toolkit-card">
+          <h4>Cloud &amp; AI Stack</h4>
+          <div class="tag-cloud">
+            <span class="tag">GCP</span>
+            <span class="tag">BigQuery</span>
+            <span class="tag">Vertex AI</span>
+            <span class="tag">Power BI</span>
+            <span class="tag">Automated Pipelines</span>
+          </div>
+        </div>
+
+        <div class="toolkit-card">
+          <h4>Business Analytics</h4>
+          <div class="tag-cloud">
+            <span class="tag">Customer Analytics</span>
+            <span class="tag">Experimentation (A/B)</span>
+            <span class="tag">Marketing Analytics</span>
+            <span class="tag">Credit Risk</span>
+            <span class="tag">Model Monitoring</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section (Compact Layout) -->
+  <section id="education" class="edu-compact-section">
+    <div class="wrap">
+      <div class="edu-container reveal">
+        <div>
+          <div class="edu-eyebrow mono">
+            <span>✦</span> EDUCATION &amp; FOUNDATIONAL DEGREE
+          </div>
+
+          <div class="edu-grid-horizontal">
+            <div>
+              <div class="edu-date-label mono">2007 — 2009</div>
+              <h3 class="edu-degree">Master's Degree</h3>
+              <div class="edu-school">BIMM College · Pune, India</div>
+            </div>
+
+            <div>
+              <div class="edu-date-label mono">2002 — 2006</div>
+              <h3 class="edu-degree">Bachelor's Degree</h3>
+              <div class="edu-school">MBM Engineering College · Jodhpur, India</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-check-box" aria-hidden="true">
+          <svg viewBox="0 0 24 24">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Contact Section -->
+  <footer id="contact" class="footer">
+    <div class="wrap">
+      <div class="footer-grid reveal">
+        <div>
+          <div class="eyebrow">06 / CONNECT</div>
+          <p class="copy mono" style="margin-top:20px; font-size:10px; line-height:1.7;">
+            LEEDS, UK — AVAILABLE FOR ANALYTICS LEADERSHIP, AI STRATEGY &amp; STRATEGIC ADVISORY.
+          </p>
+        </div>
+        <div>
+          <h2>Let's <span>connect.</span></h2>
+
+          <div class="contact-opportunity-box">
+            <div class="contact-opportunity-title mono">OPEN TO OPPORTUNITIES</div>
+            <p class="contact-opportunity-desc">Open to Analytics Leadership, AI Strategy &amp; Advisory Opportunities.</p>
+            <div class="footer-action-links mono">
+              <a class="action-link primary" href="https://www.linkedin.com/in/shweta-puri-26b67413" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.7a1.63 1.63 0 1 0 0 3.26 1.63 1.63 0 0 0 0-3.26z"/></svg>
+                CONNECT ON LINKEDIN ↗
+              </a>
+              <a class="action-link" href="https://github.com/DataDynamoShweta" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                VIEW GITHUB ↗
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      <div class="footline mono">
+        <span>Shweta Puri · Advanced Analytics Leader</span>
+        <span>Leeds, UK</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+</main>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+  /* Progressive Scroll Reveal Observer */
+  if ('IntersectionObserver' in window) {
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+  } else {
+    // Fallback for browsers without IntersectionObserver
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('active'));
+  }
+
+  /* Counter Animations with JS-Disabled Fallback */
+  const counterElements = document.querySelectorAll('[data-val]');
+  if ('IntersectionObserver' in window) {
+    const counterObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const targetVal = parseFloat(el.getAttribute('data-val'));
+          const prefix = el.getAttribute('data-prefix') || '';
+          const suffix = el.getAttribute('data-suffix') || '';
+          
+          let startTimestamp = null;
+          const duration = 1600;
+
+          const step = (timestamp) => {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+            const currentVal = Math.floor((1 - Math.pow(1 - progress, 3)) * targetVal);
+
+            el.innerText = `${prefix}${currentVal.toLocaleString()}${suffix}`;
+
+            if (progress < 1) {
+              window.requestAnimationFrame(step);
+            } else {
+              el.innerText = `${prefix}${targetVal.toLocaleString()}${suffix}`;
+            }
+          };
+
+          window.requestAnimationFrame(step);
+          observer.unobserve(el);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    counterElements.forEach(el => counterObserver.observe(el));
+  }
+
+  /* Radar Signal Graphic Canvas */
+  const canvas = document.getElementById('radarCanvas');
+  if (canvas && canvas.getContext) {
+    const ctx = canvas.getContext('2d');
+
+    function drawRadar() {
+      const rect = canvas.parentElement.getBoundingClientRect();
+      canvas.width = rect.width * window.devicePixelRatio;
+      canvas.height = rect.height * window.devicePixelRatio;
+      
+      const w = rect.width;
+      const h = rect.height;
+      const cX = w / 2;
+      const cY = h / 2 - 10;
+
+      ctx.save();
+      ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+      ctx.clearRect(0, 0, w, h);
+
+      // Axis lines
+      ctx.strokeStyle = '#2563eb';
+      ctx.lineWidth = 0.75;
+      ctx.globalAlpha = 0.25;
+
+      ctx.beginPath();
+      ctx.moveTo(cX, 20);
+      ctx.lineTo(cX, h - 60);
+      ctx.stroke();
+
+      ctx.beginPath();
+      ctx.moveTo(20, cY);
+      ctx.lineTo(w - 20, cY);
+      ctx.stroke();
+
+      // Concentric circles
+      const radii = [w * 0.38, w * 0.28, w * 0.18, w * 0.08];
+      radii.forEach((r, idx) => {
+        ctx.beginPath();
+        ctx.arc(cX, cY, r, 0, Math.PI * 2);
+        if (idx === 0) {
+          ctx.strokeStyle = '#2563eb';
+          ctx.globalAlpha = 0.5;
+          ctx.setLineDash([3, 3]);
+        } else if (idx >= 2) {
+          ctx.strokeStyle = '#8f9779';
+          ctx.globalAlpha = 0.5;
+          ctx.setLineDash([]);
+        } else {
+          ctx.strokeStyle = '#2563eb';
+          ctx.globalAlpha = 0.3;
+          ctx.setLineDash([]);
+        }
+        ctx.stroke();
+      });
+
+      ctx.setLineDash([]);
+      ctx.globalAlpha = 1;
+
+      // Vector Rays (Signal to Center to Action)
+      ctx.beginPath();
+      ctx.moveTo(cX - w * 0.22, cY + h * 0.16);
+      ctx.lineTo(cX, cY);
+      ctx.strokeStyle = '#2563eb';
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+
+      ctx.beginPath();
+      ctx.moveTo(cX, cY);
+      ctx.lineTo(cX + w * 0.24, cY + h * 0.12);
+      ctx.strokeStyle = '#8f9779';
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+
+      // Center ring
+      ctx.beginPath();
+      ctx.arc(cX, cY, 5, 0, Math.PI * 2);
+      ctx.strokeStyle = '#8f9779';
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+
+      ctx.restore();
+    }
+
+    drawRadar();
+    window.addEventListener('resize', drawRadar);
+  }
+
+});
+</script>
+
+</body>
+</html>
