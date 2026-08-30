@@ -1,4 +1,4 @@
-# Personal Portfolio Website — Shweta Puri
+# Personal Portfolio Website 
 
 This repository contains the single-page HTML source code for the personal portfolio of **Shweta Puri**, an Advanced Analytics Leader based in Leeds, UK. 
 
