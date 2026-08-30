@@ -1,103 +1,40 @@
-# Shweta Puri — Advanced Analytics Leader | AI, ML & Consumer Intelligence
+# Personal Portfolio Website — Shweta Puri
 
-> **Location:** Leeds, UK  
-> **Specialization:** Turning customer data into measurable business outcomes across Banking, Healthcare, and FMCG.  
-> **Links:** [LinkedIn](https://www.linkedin.com/in/shweta-puri-26b67413) | [GitHub](https://github.com/DataDynamoShweta)
+This repository contains the single-page HTML source code for the personal portfolio of **Shweta Puri**, an Advanced Analytics Leader based in Leeds, UK. 
 
----
-
-## 📌 Executive Summary
-
-Shweta Puri is an **Advanced Analytics Leader** with over 10 years of experience driving business value through artificial intelligence, machine learning, predictive modeling, and consumer intelligence. Her expertise spans leadership in translating complex corporate challenges into enterprise-ready data science solutions, implementing MLOps governance, and optimizing commercial strategy.
+The website serves as an interactive decision-intelligence showcase highlighting professional capabilities across AI/ML, credit risk, consumer insights, and commercial strategy across Banking, Healthcare, and FMCG sectors.
 
 ---
 
-## 💡 Strategic Core Capabilities
+## 📄 File Overview
 
-*   **Analytics Strategy:** Translating complex business problems into scalable analytical solutions, defining long-term data roadmaps, and delivering clear strategic vision.
-*   **Team Leadership:** Leading high-performing cross-functional analytics initiatives from initial problem definition through end-to-end model deployment.
-*   **Stakeholder Engagement:** Communicating complex machine learning insights and quantitative models clearly to C-suite executives and non-technical leaders.
-*   **Business Impact:** Connecting predictive modeling and granular customer insights directly to bottom-line commercial outcomes and operational efficiency gains.
+- **`index.html`**: The complete single-file bundle containing the web application structure, custom design system, interactive canvas graphic, responsive layouts, and scroll-animation behaviors.
 
 ---
 
-## 📈 Key Impact & Metrics
+## 🎨 Key Web Features & Implementation Details
 
-*   **+4% Debt Collection Rate:** Boosted debt recovery via predictive contact strategies and payment propensity modeling.
-*   **1,400+ Sales Reps Enabled:** Streamlined commercial targeting and decision-making via automated Python & SQL KPI dashboards.
-*   **Enterprise Credit Risk & Scorecards:** Deployed multiple credit risk and propensity scorecards utilizing bureau and client data.
-
----
-
-## 📂 Selected Case Studies
-
-| Project | Industry / Domain | Problem | Model / Approach | Deployment & Impact |
-| :--- | :--- | :--- | :--- | :--- |
-| **Predictive Collections Optimization** | Retail Banking / Credit Risk | Low recovery rates & inefficient contact timing. | Propensity to pay scorecards & risk models. | Automated contact prioritization engine yielding a **+4% boost in debt collection rates**. |
-| **Customer Propensity & Acquisition** | Financial Services / Marketing | High acquisition costs for investment products. | XGBoost & Random Forest propensity models. | Targeted digital funnel & campaign triggers optimizing **campaign ROI & customer funnel**. |
-| **Behavioral Customer Segmentation** | Commercial / Healthcare | One-size-fits-all sales rep targeting. | K-Means clustering & Decision Trees. | Automated field rep dashboard streamlining strategy for **1,400+ sales reps**. |
-| **Model Monitoring & Drift Detection** | MLOps / Risk Governance | Model performance degradation over time. | Statistical data & concept drift pipelines. | Automated warning & monitoring alerts ensuring **proactive recalibration & risk governance**. |
+- **Minimalist & Custom Styling**: Built with custom CSS variables featuring custom typography (`Inter`, `Playfair Display`, and `Courier Prime`).
+- **Interactive Radar Signal Graphic**: Built using the HTML5 Canvas API (`#radarCanvas`) and dynamic calculation loops to visualize decision signal layers.
+- **Progressive Animations**: Smooth element reveals powered by `IntersectionObserver` with automatic fallback handling.
+- **Responsive Layout**: Designed mobile-first, supporting fluid grid layouts for devices down to 320px width.
 
 ---
 
-## 💼 Professional Experience
+## ⛔ Copyright & Usage Guidance
 
-### **Advanced Analytics Lead – Consumer Insights**  
-**Lloyds Bank** · *Leeds, UK* (12/2022 — 07/2025)
-*   Led end-to-end ML and advanced analytics solutions across debt collections, marketing, and product strategy.
-*   Built predictive models for customer risk assessment and insurance purchase propensity to optimize campaign ROI.
-*   Developed granular customer segmentation frameworks to refine contact strategies across core banking products.
-*   Established robust model monitoring and data drift detection frameworks to maintain production reliability.
+**This repository and its assets are published strictly for portfolio presentation and codebase reference.**
 
-### **Senior Portfolio Analyst**  
-**Lowell Financial Ltd** · *Leeds, UK* (10/2019 — 09/2022)
-*   Optimized debt recovery strategies using predictive models, scorecards, and customer journey analytics.
-*   Developed propensity to default and payment adherence models utilizing bureau and internal client data.
-*   Designed business performance baselines to support executive asset forecasting and budget planning.
-*   Implemented early warning monitoring frameworks to identify emerging credit portfolio risks proactively.
-
-### **Senior Analyst**  
-**Novartis Healthcare** · *India* (03/2015 — 07/2018)
-*   Delivered data science solutions for sales strategy, physician targeting, and commercial performance optimization.
-*   Built physician segmentation models using K-Means and Decision Trees based on prescribing behavior.
-*   Automated KPI dashboards in Python and SQL for 1,400+ field reps to support real-time commercial decisions.
-*   Executed A/B testing and regression modeling to evaluate multi-channel promotional campaign effectiveness.
-
-### **Business Analyst**  
-**Tata Consultancy Services** · *Vadodara, India* (06/2011 — 11/2012)
-*   Optimized FMCG distribution using data analytics, clustering, and product recommendation engines.
-*   Developed store segmentation models using Pareto analysis to prioritize high-value retail clusters.
-*   Executed what-if scenario modeling to optimize product assortment mixes across store tiers.
-
-### **Consultant**  
-**CERA** · *Delhi, India* (05/2009 — 05/2011)
-*   Leveraged SAS and advanced Excel reporting to build automated KPI dashboards tracking sales performance.
-*   Built outlet segmentation models using clustering techniques to classify dealers by purchase frequency.
+### Please note the following guidelines:
+1. **Design & Identity Rights**: The UI design, brand mark (`SP`), radar visualization layout, color palette, custom layout system, and all copy/content are **copyrighted personal assets of Shweta Puri**.
+2. **Do Not Copy or Clone**: You are **strictly requested not to clone, copy, or redistribute** the site design, visual assets, CSS styling structures, or personal metadata for your own portfolio, commercial projects, or personal branding.
+3. **Reference Only**: You may inspect the codebase for educational learning purposes (e.g., studying HTML5 Canvas animations or pure CSS grid implementation), but direct copying of the visual identity and components is prohibited.
 
 ---
 
-## 🛠️ Capability Toolkit
+## 📬 Contact Information
 
-| Category | Skills & Technologies |
-| :--- | :--- |
-| **AI & Machine Learning** | Predictive Modeling, XGBoost, Random Forest, Propensity Modeling, Segmentation, Logistic Regression |
-| **Data & Programming** | Python, SQL, R, NumPy, Pandas, Scikit-Learn |
-| **Cloud & AI Stack** | GCP, BigQuery, Vertex AI, Power BI, Automated Pipelines |
-| **Business Analytics** | Customer Analytics, Experimentation (A/B Testing), Marketing Analytics, Credit Risk, Model Monitoring |
+For inquiries, strategic advisory, or leadership opportunities:
 
----
-
-## 🎓 Education
-
-*   **Master's Degree** — BIMM College · Pune, India (2007 — 2009)
-*   **Bachelor's Degree** — MBM Engineering College · Jodhpur, India (2002 — 2006)
-
----
-
-## 📬 Contact & Advisory
-
-Shweta Puri is open to **Analytics Leadership, AI Strategy & Strategic Advisory Opportunities**.
-
-*   **Location:** Leeds, UK
-*   **LinkedIn:** [linkedin.com/in/shweta-puri-26b67413](https://www.linkedin.com/in/shweta-puri-26b67413)
-*   **GitHub:** [github.com/DataDynamoShweta](https://github.com/DataDynamoShweta)
+- **LinkedIn**: [Shweta Puri](https://www.linkedin.com/in/shweta-puri-26b67413)
+- **GitHub**: [@DataDynamoShweta](https://github.com/DataDynamoShweta)
