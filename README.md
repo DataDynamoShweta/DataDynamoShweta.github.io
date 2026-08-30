@@ -6,12 +6,6 @@ The website serves as an interactive decision-intelligence showcase highlighting
 
 ---
 
-## 📄 File Overview
-
-- **`index.html`**: The complete single-file bundle containing the web application structure, custom design system, interactive canvas graphic, responsive layouts, and scroll-animation behaviors.
-
----
-
 ## 🎨 Key Web Features & Implementation Details
 
 - **Minimalist & Custom Styling**: Built with custom CSS variables featuring custom typography (`Inter`, `Playfair Display`, and `Courier Prime`).
